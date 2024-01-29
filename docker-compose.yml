@@ -1,0 +1,6 @@
+version: '3'
+services:
+  koval-telegram-bot:
+    build: .
+    environment:
+      - TELOXIDE_TOKEN=your_token_goes_here
